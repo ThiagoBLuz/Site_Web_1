@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Amarilís</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <header>
+        <h1>Atividade Desenvolvimento Web I</h1>
+    </header>
+    <a href="index.html">
+    <img src="imagens/logotipo_amarilis.png" alt="Logo Amarílis" style="width: 200px;"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="detanhes.html">Novidades</a></li>
+            <li><a href="autor.html">Autor</a></li>
+            <li><a href="login.html">Administrativo</a></li>
+        </ul>
+    </nav>
+        <a href="carrinho.html">
+        <img src="imagens/carrinho_de_compras.png" alt="Carrinho de Compras" style="width: 30px;"></a>
+    <main>
+        <section>
+            <h1>Cadastro de Usuário</h1>
+            <form action="/action_page.php">
+                <fieldset style="width: 300px;">  
+                    <legend>Cadastro:</legend>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome"><br><br>
+                    <label for="sobrenome">Sobrenome:</label><br>
+                    <input type="text" id="sobrenome" name="sobrenome"><br><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo">
+                        <option value="sem resposta">Sem resposta</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select><br><br>
+                    <label for="aniversario">Data de Nascimento:</label>
+                    <input type="date" id="aniversario" name="Data de Nascimento"><br><br>
+                    <label for="senha">Crie sua senha:</label><br>
+                    <input type="password" id="senha" name="senha"><br><br>
+                    <label for="senha">Repita sua senha:</label><br>
+                    <input type="password" id="senha" name="senha"><br><br>
+                    <input type="submit" value="Finalizar Cadastro"><br>
+                </fieldset><br><br>
+            </form>
+        </section>
+            <style>
+            table, th, td{
+                    border:1px solid black;
+                    text-align: center;
+                }
+            </style>
+            <table style="width:70%;">
+                <tr>
+                    <th>Usuário</th>
+                    <th>E-mail</th>
+                    <th>Sexo</th>
+                    <th>Data de Nascimento</th>
+                    <th>Editar</th>
+                    <th>Apagar</th>
+                </tr>
+                <tr>
+                    <td>Antonio Luan</td>
+                    <td>antonioluan2024@gmail.com</td>
+                    <td>Masculino</td>
+                    <td>18/03/2000</td>
+                    <td><button type="button">Editar</button></td>
+                    <td><button type="button">Apagar</button></td>
+                </tr>
+                <tr>
+                    <td>Amanda Dias</td>
+                    <td>diasamanda1998@gmail.com</td>
+                    <td>Feminino</td>
+                    <td>23/12/1998</td>
+                    <td><button type="button">Editar</button></td>
+                    <td><button type="button">Apagar</button></td>
+                </tr>
+            </table>
+        </section><br><br>
+        <section>
+            <button>
+                <a href="cadastro_de_produtos.html" class="button-link">Cadastro de Produtos</a>
+            </button>
+        </section>
+    </main><br><br>
+    <footer>
+        Desenvolvido por José Thiago Barbosa Luz<br><br>
+        <a href="autor.html">Saiba mais sobre o Autor</a>
+    </footer>
+</body>
+</html>

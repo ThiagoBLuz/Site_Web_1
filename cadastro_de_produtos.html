@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Amarilís</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <header>
+        <h1>Atividade Desenvolvimento Web I</h1>
+    </header>
+    <a href="index.html">
+    <img src="imagens/logotipo_amarilis.png" alt="Logo Amarílis" style="width: 200px;"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="detanhes.html">Novidades</a></li>
+            <li><a href="autor.html">Autor</a></li>
+            <li><a href="login.html">Administrativo</a></li>
+        </ul>
+    </nav>
+        <a href="carrinho.html">
+        <img src="imagens/carrinho_de_compras.png" alt="Carrinho de Compras" style="width: 30px;"></a>
+    <main>
+        <section>
+            <h1>Cadastro de Produtos</h1>
+            <form action="/action_page.php">
+                <fieldset style="width: 300px;">  
+                    <legend>Cadastro:</legend>
+                    <label for="produto">Produto:</label><br>
+                    <input type="text" id="produto" name="produto"><br><br>
+                    <label for="custo">Custo:</label><br>
+                    <input type="text" id="custo" name="custo"><br><br>
+                    <label for=peso">Peso:</label>
+                    <select id="peso" name="peso">
+                        <option value="150ml">150 ml</option>
+                        <option value="300ml">300 ml</option>
+                        <option value="500ml">500 ml</option>
+                    </select><br><br>
+                    <label for=grupo">Grupo:</label>
+                    <select id="grupo" name="grupo">
+                        <option value="tonico">Tônico</option>
+                        <option value="sabonete">Sabonete</option>
+                    </select><br><br>
+                    <label for="codproduto">Código:</label><br>
+                    <input type="text" id="codproduto" name="codproduto"><br><br>
+                    <input type="submit" value="Finalizar"><br>
+                </fieldset><br><br>
+            </form>
+        </section>
+            <style>
+            table, th, td{
+                    border:1px solid black;
+                    text-align: center;
+                }
+            </style>
+            <table style="width:70%;">
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Grupo</th>
+                    <th>Peso</th>
+                    <th>Editar</th>
+                    <th>Apagar</th>
+                </tr>
+                <tr>
+                    <td>5426</td>
+                    <td>Sabonete líquido esfoliante corporal</td>
+                    <td>Sabonete</td>
+                    <td>150 ml</td>
+                    <td><button type="button">Editar</button></td>
+                    <td><button type="button">Apagar</button></td>
+                </tr>
+                <tr>
+                    <td>6588</td>
+                    <td>Tônico detox hidratante</td>
+                    <td>Tônico</td>
+                    <td>300 ml</td>
+                    <td><button type="button">Editar</button></td>
+                    <td><button type="button">Apagar</button></td>
+                </tr>
+            </table>
+        </section><br><br>
+        <section>
+            <button>
+                <a href="cadastro_de_usuarios.html" class="button-link">Cadastro de Usuários</a>
+            </button>
+        </section>
+    </main><br><br>
+    <footer>
+        Desenvolvido por José Thiago Barbosa Luz<br><br>
+        <a href="autor.html">Saiba mais sobre o Autor</a>
+    </footer>
+</body>
+</html>
