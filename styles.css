@@ -1,0 +1,58 @@
+header a{
+    display: flex;
+    background-color: purple;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.container {
+    margin-top: 10px;
+    background-color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 15px; 
+    text-align: center;
+}
+.caixa {
+    margin-top: 10px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:aquamarine;
+    color:black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    flex-direction: row;
+    font-size: 20px;
+}
+.caixa1 {
+    margin: 10px;
+    background-color:blue;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.caixa2 {
+    margin: 10px;
+    background-color:chocolate; 
+    color:white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: violet; 
+    color:black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px;
+}
